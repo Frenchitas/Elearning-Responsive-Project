@@ -1,0 +1,83 @@
+@use '../abstracts/abstracts' as *;
+
+.activities {
+  padding-bottom: 40px;
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+  @include breakpoint(tablet) {
+    padding-bottom: 80px;
+  }
+  &__header {
+    background-image: $gradient-pink-orange;
+    padding: 25px 30px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 60px;
+    @include breakpoint(tablet) {
+      margin-bottom: 30px;
+      padding-top: 60px;
+    }
+  }
+
+  &__item {
+    padding: 1rem 2rem;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 56px 28px 40px;
+    position: relative;
+    @include breakpoint(tablet) {
+      margin-bottom: 0;
+    }
+    @include breakpoint(tablethorizontal) {
+      box-shadow: 10px 10px 20px #e4e4e4;
+    }
+    @include breakpoint(desktop) {        
+      box-shadow: 10 105px 20px #e4e4e4;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &-icon {
+      width: 56px;
+      height: 56px;
+      background: $gradient-pink-orange;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      position: absolute;
+      left: 20px;
+      top: -25px;
+    }
+    &-title {
+      color: $black;
+      font-size: 20px;
+      margin-bottom: 26px;
+      font-weight: 800;
+    }
+    &-description {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      color: #83869a;
+      margin-bottom: 28px;
+    }
+    &-cta {
+        color: $pink;
+    }
+  }
+  .container {
+    @include breakpoint(tablet) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px 30px;
+    }
+    @include breakpoint(tablethorizontal) {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 80px 30px;
+    }
+  }
+  
+}

@@ -1,0 +1,14 @@
+@use '../abstracts/abstracts' as *;
+
+html * {
+  font-family: $primary-font;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}

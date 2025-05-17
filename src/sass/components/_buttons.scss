@@ -1,0 +1,13 @@
+@use '../abstracts/abstracts' as *;
+
+.button {
+    @include button();
+}
+
+.button-pink-orange {
+    @include button-pink-orange();
+}
+
+.button-link {
+  @include button-link();
+}

@@ -1,0 +1,15 @@
+@use '../abstracts/abstracts' as *;
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 38px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .principal-nav ul {
+            @include reset-list();
+        }
+    }
+}
