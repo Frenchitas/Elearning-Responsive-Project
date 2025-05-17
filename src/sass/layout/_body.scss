@@ -8,13 +8,13 @@ body {
         background-size: 400px;
     }
     @include breakpoint(tablethorizontal) {
-        background-image: url('src/images/Hero-img.png');
+        background-image: url('../images/Hero-img.png');
         background-repeat: no-repeat;
         background-position: top 10px right -33px;
         background-size: 500px;
     }
     @include breakpoint(desktop) {
-        background-image: url('src/images/Hero-img.png');
+        background-image: url('../images/Hero-img.png');
         background-repeat: no-repeat;
         background-position: top 10px right -33px;
         background-size: 500px;
