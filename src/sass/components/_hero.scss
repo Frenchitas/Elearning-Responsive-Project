@@ -85,6 +85,10 @@
               left: 62px;
               bottom: -206px;  
             }
+            @include breakpoint(desktopxl) {
+              left: 200px;
+              bottom: -206px;  
+            }
         }
         &-2 {
             padding: 16px 20px 16px 20px;
