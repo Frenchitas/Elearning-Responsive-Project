@@ -3,9 +3,10 @@
 This is a frontend project built with HTML, CSS (using Sass), and Vite.  
 It features a **header**, a **hero section**, **activities section**, and a **footer** for a Elearning Landing website.
 
-## 🖥 Preview
+## 🌐 Demo en vivo
 
-[!Watch the Preview video]([https://www.loom.com/share/b88baeff55084636b653d8a95df77a71?sid=ecf71a6c-1b71-4805-9d29-a2f79d750b4c](https://github.com/Frenchitas/Elearning-Responsive-Project/blob/master/src/images/screencapture-frenchitas-github-io-Elearning-Responsive-Project-2025-06-01-07_53_35.png))
+[https://frenchitas.github.io/Elearning-responsive-project](https://frenchitas.github.io/Elearning-responsive-project)
+
 
 ## 🚀 Technologies Used
 
